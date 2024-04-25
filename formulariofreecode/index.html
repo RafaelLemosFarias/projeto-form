@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <h1 id="title">Pesquisa de Campo</h1>
+
+        <p id="description">Responda com calma</p>
+        
+        <form id="survey-form">
+            
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+            <label id="name-label">Nome Completo*
+            <input class="form-control" id="name" type="name" placeholder="Nome completo"required></input>
+            </label>
+
+            <label id="email-label">E-mail*
+            <input class="form-control" id="email" type="email" placeholder="E-mail"required></input>
+            </label>
+
+            <label id="number-label">Número*
+            <input class="form-control" id="number" min="9" max="11" type="number" placeholder="Número"></input>
+            </label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Você gostaria de trabalhar em home-office?</legend>
+
+                <label for="sim"><input id="sim" type="radio" value="sim" name="indica" class="inline" checked /> Sim</label>
+
+                <label for="nao"><input id="nao" type="radio" value="nao" name="indica" class="inline" /> Não</label>
+
+                <label for="talvez"><input id="talvez" type="radio" value="talvez" name="indica" class="inline" /> Talvez</label>
+
+            </fieldset>
+
+            <fieldset>
+
+            <label for="dropdown">Qual modelo de trabalho mais de adequa ao seu estilo?
+
+                <select id="dropdown" name="modo" required>
+
+                  <option value="">Escolha</option>
+
+                  <option value="1">Escritório presencial</option>
+
+                  <option value="2">Home-Office</option>
+
+                  <option value="3">Híbrido</option>
+
+                  <option value="4">Other</option>
+
+                </select>
+
+            </fieldset>    
+
+                <fieldset>
+
+                    <fieldset>
+                        <label for="escolha-javascript">
+                            <input id="escolha-javascript" class="inline" name="escolha" value="javascript" type="checkbox" required> Javascript
+                        </label>
+                    
+                        <label for="escolha-python">
+                            <input id="escolha-python" class="inline" name="escolha" value="python" type="checkbox" required> Python
+                        </label>
+                    
+                        <label for="escolha-outro">
+                            <input id="escolha-outro" class="inline" name="escolha" value="outro" type="checkbox" required> Outro
+                        </label>
+                    </fieldset>
+
+                    <label for="escreva">Escreva algo:
+
+                        <textarea id="escreva" name="escreva" rows="3" cols="30" placeholder="Eu gosto de programar..."></textarea>
+
+                      </label>
+                    
+                </fieldset>
+
+            </label>
+
+            <input type="submit" id="submit" value="Submit" />
+
+        </form>
+    </body>
+
+</html>

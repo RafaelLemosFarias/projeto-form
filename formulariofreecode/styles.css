@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(255, 4, 88, 0);
+    color: black;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-size: auto;
+    background-image: linear-gradient( 115deg, rgba(129, 123, 40, 0.8), rgba(78, 78, 57, 0.7) ), url(https://img.freepik.com/fotos-gratis/rapaz-asiatico-na-aula-de-educacao-cientifica_1150-16631.jpg?w=1380&t=st=1714019437~exp=1714020037~hmac=e33afca7bcce2c282eae8254064461aa83c726bdd695fd9b931857ae118cb897);
+  }
+
+  h1, p {
+    margin-top: 1em auto;
+    text-align: center;
+  }
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+  form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 480px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    background-color: rgba(226, 255, 159, 0.3);
+    border-radius: 0.25rem;
+  }
+
+  fieldset {
+    border: none;
+    padding: 0.20rem;
+    border-bottom: 3px solid #676e3d;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  input, select, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #b8b50b;
+    border-color: #676e3d;
+    min-width: 300px;
+    color: black;
+  }
+
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #f8f8f8;
+    color: #ffffff;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  .inline{
+    display: inline; 
+  }
+
